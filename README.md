@@ -76,11 +76,14 @@ Your journey will take you through the wildness of the American Midwest and acro
 ```
 
 1. In the **main** module, one of the first lines of code is `const drovers = hireDrovers(cattleToDrive)`. Explain what the value of the `drovers` variable is when that line of code runs.
-   > Drovers is equal to hireDrovers function or herdSize/10
+   > The value of drovers is an array with 5 object literals.
+
 2. At the bottom of the main module, you will see the following code - `for (const drover of drovers)`. Explain what the values of both the `drover` and the `drovers` variables are.
-   > Drovers is an array, Drover is a single object in that array
+   > Drovers is the array that contains multiple objects literals. Drover is a single object.
+
 3. In the **journey** module, there is a `journeyMaker()` function. In that function, there is a variable named `areas` which will have the value of an object. Use your debugger to show what the value of each key is on that object. Use [Loom](https://www.loom.com) to record your session.
-   > (https://www.loom.com/share/361102d055c34ed69975667a38ba3a6e?sid=933f1965-3c16-471f-871c-3ba73fe1f9ee)
+   > (https://www.loom.com/share/3e5d78c327934056be2b9b7979ee2c81?sid=faabd6f8-97e8-44a9-9672-bbf8d924c40d)
+
 4. Also in the **journey** module, there is the following code:
    ```js
    for (let forestNumber = 0; forestNumber < areas.forests; forestNumber++) {
@@ -88,11 +91,19 @@ Your journey will take you through the wildness of the American Midwest and acro
    }
    ```
    Explain this code with your best vocabulary.
-   > sets forestnumber to 0 then sees if there are forest areas and if there are adds on to the journey array
+   > this is a for loop that declares a variable, forestNumber, in the initialization part. In the condition part there is a comparison expression which checks if the declared variable is less than the variable ares.forests. forestNumber is then iterated if the condition evaulates to true
+
+   This is a for loop that performs iteration over a block of code a specific number of times.
+   The initialization declares a counter variable, forestNumber, and sets it to 0. The condition checks if forestNumber is less than the value of areas.forests.
+   If the condition is true, the body loop executes.
+   After each iteration, the increment expression adds 1 to forestNumber.
+   This continues until the condition is false.
+
 5. Explain the value of the `database` variable in the **database** module. Be as comprehensive as possible.
-   > isn't that just teh array name
+   > 
+   
 6. In the **drovers** module, there is a `hireDrovers()` function. You will notice the following code on that line - `(herdSize)`. What is that defining, and where does it get its value?
-   > herdSize is the size of the herd
+   > It is a parameter and it get is its value from main.js and it 50.
 
 ## When You Are Done
 
