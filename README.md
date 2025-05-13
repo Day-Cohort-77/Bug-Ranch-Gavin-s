@@ -91,16 +91,10 @@ Your journey will take you through the wildness of the American Midwest and acro
    }
    ```
    Explain this code with your best vocabulary.
-   > this is a for loop that declares a variable, forestNumber, in the initialization part. In the condition part there is a comparison expression which checks if the declared variable is less than the variable ares.forests. forestNumber is then iterated if the condition evaulates to true
-
-   This is a for loop that performs iteration over a block of code a specific number of times.
-   The initialization declares a counter variable, forestNumber, and sets it to 0. The condition checks if forestNumber is less than the value of areas.forests.
-   If the condition is true, the body loop executes.
-   After each iteration, the increment expression adds 1 to forestNumber.
-   This continues until the condition is false.
+   > this is a for loop that declares a variable, forestNumber, in the initialization part. In the condition part there is a comparison expression which checks if the declared variable is less than the variable areas.forests. forestNumber is then iterated if the condition evaulates to true. Each time it runs, it uses journey.push("forest") to add the string "forest" to the journey array until the condition is false.
 
 5. Explain the value of the `database` variable in the **database** module. Be as comprehensive as possible.
-   > 
+   > The database variable is an object that contains 2 arrays, each containing objects. A Nested object
    
 6. In the **drovers** module, there is a `hireDrovers()` function. You will notice the following code on that line - `(herdSize)`. What is that defining, and where does it get its value?
    > It is a parameter and it get is its value from main.js and it 50.
